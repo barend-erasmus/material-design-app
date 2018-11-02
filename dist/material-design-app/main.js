@@ -89,7 +89,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<mat-menu #appMenu=\"matMenu\">\n  <a [routerLink]=\"['teams']\" mat-menu-item>Teams</a>\n  <a [routerLink]=\"['boat']\" mat-menu-item>Boat</a>\n</mat-menu>\n\n<mat-toolbar color=\"primary\">\n  <i [matMenuTriggerFor]=\"appMenu\" class=\"material-icons\">\n    menu\n  </i>\n  <span>Volvo Ocean Race</span>\n</mat-toolbar>\n\n<div class=\"mat-app-background basic-container\" style=\"padding: 10px\">\n  <router-outlet></router-outlet>\n</div>"
+module.exports = "<mat-menu #appMenu=\"matMenu\">\r\n  <a [routerLink]=\"['teams']\" mat-menu-item>Teams</a>\r\n  <a [routerLink]=\"['boat']\" mat-menu-item>Boat</a>\r\n</mat-menu>\r\n\r\n<mat-toolbar color=\"primary\">\r\n  <i [matMenuTriggerFor]=\"appMenu\" class=\"material-icons\">\r\n    menu\r\n  </i>\r\n  <span>Volvo Ocean Race</span>\r\n</mat-toolbar>\r\n\r\n<div class=\"mat-app-background basic-container\" style=\"padding: 10px\">\r\n  <router-outlet></router-outlet>\r\n</div>"
 
 /***/ }),
 
@@ -214,7 +214,7 @@ module.exports = "table {\r\n    margin: 10px;\r\n}\r\n\r\n/*# sourceMappingURL=
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<mat-card style=\"margin: 10px\">\n  <mat-card-header>\n    <mat-card-title>Boat Technical Specifications</mat-card-title>\n  </mat-card-header>\n  <img mat-card-image src=\"https://volvooceanrace-2017-18.s3.amazonaws.com/images/m100001_crop169014_1024x576_proportional_1477318583419E.jpg\">\n  <mat-card-content>\n    <p>\n      The new Volvo Ocean 65 Class has been designed, engineered and built to be a high performing and competitive race\n      machine.\n    </p>\n    <p>\n      The technical specifications for the boat are developed in conjunction with suppliers and the designers and full\n      details can be found in the Volvo Ocean 65 Class Rules located in the race noticeboard.\n    </p>\n  </mat-card-content>\n</mat-card>\n\n<table mat-table [dataSource]=\"data\" class=\"mat-elevation-z8\">\n  <ng-container matColumnDef=\"property\">\n    <th mat-header-cell *matHeaderCellDef> Property </th>\n    <td mat-cell *matCellDef=\"let element\"> {{ element.property }} </td>\n  </ng-container>\n\n  <ng-container matColumnDef=\"value\">\n    <th mat-header-cell *matHeaderCellDef> Value </th>\n    <td mat-cell *matCellDef=\"let element\" [innerHTML]=\"element.value | safe\"></td>\n  </ng-container>\n\n  <!-- <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr> -->\n  <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n</table>"
+module.exports = "<mat-card style=\"margin: 10px\">\r\n  <mat-card-header>\r\n    <mat-card-title>Boat Technical Specifications</mat-card-title>\r\n  </mat-card-header>\r\n  <img mat-card-image src=\"https://volvooceanrace-2017-18.s3.amazonaws.com/images/m100001_crop169014_1024x576_proportional_1477318583419E.jpg\">\r\n  <mat-card-content>\r\n    <p>\r\n      The new Volvo Ocean 65 Class has been designed, engineered and built to be a high performing and competitive race\r\n      machine.\r\n    </p>\r\n    <p>\r\n      The technical specifications for the boat are developed in conjunction with suppliers and the designers and full\r\n      details can be found in the Volvo Ocean 65 Class Rules located in the race noticeboard.\r\n    </p>\r\n  </mat-card-content>\r\n</mat-card>\r\n\r\n<table mat-table [dataSource]=\"data\" class=\"mat-elevation-z8\">\r\n  <ng-container matColumnDef=\"property\">\r\n    <th mat-header-cell *matHeaderCellDef> Property </th>\r\n    <td mat-cell *matCellDef=\"let element\"> {{ element.property }} </td>\r\n  </ng-container>\r\n\r\n  <ng-container matColumnDef=\"value\">\r\n    <th mat-header-cell *matHeaderCellDef> Value </th>\r\n    <td mat-cell *matCellDef=\"let element\" [innerHTML]=\"element.value | safe\"></td>\r\n  </ng-container>\r\n\r\n  <!-- <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr> -->\r\n  <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\r\n</table>"
 
 /***/ }),
 
@@ -501,7 +501,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<mat-card style=\"margin: 10px\">\n  <mat-card-header>\n    <img mat-card-avatar src=\"{{ team.flag }}\" />\n    <mat-card-title> {{ team.name }} Review</mat-card-title>\n    <mat-card-subtitle>{{ team.country }}</mat-card-subtitle>\n  </mat-card-header>\n  <div style=\"position:relative;height:0;padding-bottom:56.27%\"><iframe [src]=\"team.video | safe\" style=\"position:absolute;width:100%;height:100%;left:0\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe></div>\n  <mat-card-content>\n    <p>\n      {{ team.videoDescription }}\n    </p>\n  </mat-card-content>\n</mat-card>"
+module.exports = "<mat-card style=\"margin: 10px\">\r\n  <mat-card-header>\r\n    <img mat-card-avatar src=\"{{ team.flag }}\" />\r\n    <mat-card-title> {{ team.name }} Review</mat-card-title>\r\n    <mat-card-subtitle>{{ team.country }}</mat-card-subtitle>\r\n  </mat-card-header>\r\n  <div style=\"position:relative;height:0;padding-bottom:56.27%\"><iframe [src]=\"team.video | safe\" style=\"position:absolute;width:100%;height:100%;left:0\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe></div>\r\n  <mat-card-content>\r\n    <p>\r\n      {{ team.videoDescription }}\r\n    </p>\r\n  </mat-card-content>\r\n</mat-card>"
 
 /***/ }),
 
@@ -575,7 +575,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<mat-card *ngFor=\"let team of teams\" style=\"margin: 10px\">\n  <mat-card-header>\n    <img mat-card-avatar src=\"{{ team.flag }}\" />\n    <mat-card-title> {{ team.name }}</mat-card-title>\n    <mat-card-subtitle>{{ team.country }}</mat-card-subtitle>\n  </mat-card-header>\n  <img mat-card-image src=\"{{ team.image }}\">\n  <mat-card-content>\n    <p>\n      {{ team.description[0] }}\n    </p>\n  </mat-card-content>\n  <mat-card-actions>\n    <a mat-button [routerLink]=\"['', 'team', team.name]\">View</a>\n  </mat-card-actions>\n</mat-card>"
+module.exports = "<mat-card *ngFor=\"let team of teams\" style=\"margin: 10px\">\r\n  <mat-card-header>\r\n    <img mat-card-avatar src=\"{{ team.flag }}\" />\r\n    <mat-card-title> {{ team.name }}</mat-card-title>\r\n    <mat-card-subtitle>{{ team.country }}</mat-card-subtitle>\r\n  </mat-card-header>\r\n  <img mat-card-image src=\"{{ team.image }}\">\r\n  <mat-card-content>\r\n    <p>\r\n      {{ team.description[0] }}\r\n    </p>\r\n  </mat-card-content>\r\n  <mat-card-actions>\r\n    <a mat-button [routerLink]=\"['', 'team', team.name]\">View</a>\r\n  </mat-card-actions>\r\n</mat-card>"
 
 /***/ }),
 
@@ -688,7 +688,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! K:\repositories\barend-erasmus\material-design-app\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\development\barend-erasmus\material-design-app\src\main.ts */"./src/main.ts");
 
 
 /***/ })
