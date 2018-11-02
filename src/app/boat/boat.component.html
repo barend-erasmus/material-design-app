@@ -1,0 +1,31 @@
+<mat-card style="margin: 10px">
+  <mat-card-header>
+    <mat-card-title>Boat Technical Specifications</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image src="https://volvooceanrace-2017-18.s3.amazonaws.com/images/m100001_crop169014_1024x576_proportional_1477318583419E.jpg">
+  <mat-card-content>
+    <p>
+      The new Volvo Ocean 65 Class has been designed, engineered and built to be a high performing and competitive race
+      machine.
+    </p>
+    <p>
+      The technical specifications for the boat are developed in conjunction with suppliers and the designers and full
+      details can be found in the Volvo Ocean 65 Class Rules located in the race noticeboard.
+    </p>
+  </mat-card-content>
+</mat-card>
+
+<table mat-table [dataSource]="data" class="mat-elevation-z8">
+  <ng-container matColumnDef="property">
+    <th mat-header-cell *matHeaderCellDef> Property </th>
+    <td mat-cell *matCellDef="let element"> {{ element.property }} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="value">
+    <th mat-header-cell *matHeaderCellDef> Value </th>
+    <td mat-cell *matCellDef="let element" [innerHTML]="element.value | safe"></td>
+  </ng-container>
+
+  <!-- <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr> -->
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>

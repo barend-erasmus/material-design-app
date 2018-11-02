@@ -1,0 +1,15 @@
+<mat-menu #appMenu="matMenu">
+  <a [routerLink]="['teams']" mat-menu-item>Teams</a>
+  <a [routerLink]="['boat']" mat-menu-item>Boat</a>
+</mat-menu>
+
+<mat-toolbar color="primary">
+  <i [matMenuTriggerFor]="appMenu" class="material-icons">
+    menu
+  </i>
+  <span>Volvo Ocean Race</span>
+</mat-toolbar>
+
+<div class="mat-app-background basic-container" style="padding: 10px">
+  <router-outlet></router-outlet>
+</div>

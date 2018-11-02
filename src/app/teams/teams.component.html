@@ -1,0 +1,16 @@
+<mat-card *ngFor="let team of teams" style="margin: 10px">
+  <mat-card-header>
+    <img mat-card-avatar src="{{ team.flag }}" />
+    <mat-card-title> {{ team.name }}</mat-card-title>
+    <mat-card-subtitle>{{ team.country }}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="{{ team.image }}">
+  <mat-card-content>
+    <p>
+      {{ team.description[0] }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <a mat-button [routerLink]="['', 'team', team.name]">View</a>
+  </mat-card-actions>
+</mat-card>
