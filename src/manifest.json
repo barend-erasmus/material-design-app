@@ -1,11 +1,11 @@
 {
   "name": "material-design-app",
   "short_name": "material-design-app",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "theme_color": "#1a1d20",
+  "background_color": "#1a1d20",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "/material-design-app/dist/material-design-app/index.html",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
