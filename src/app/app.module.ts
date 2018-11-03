@@ -8,13 +8,14 @@ import { MatButtonModule, MatCardModule, MatMenuModule, MatToolbarModule, MatTab
 import { TeamsComponent } from './teams/teams.component';
 import { BoatComponent } from './boat/boat.component';
 import { AppRoutingModule } from './app-routing.module';
-import { SafePipe } from './safe.pipe';
 import { TeamComponent } from './team/team.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { SafeResourceURLPipe } from './safe-resource-url.pipe';
+import { SafeHTMLPipe } from './safe-html.pipe';
 
 @NgModule({
-  declarations: [AppComponent, TeamsComponent, BoatComponent, SafePipe, TeamComponent],
+  declarations: [AppComponent, TeamsComponent, BoatComponent, TeamComponent, SafeResourceURLPipe, SafeHTMLPipe],
   imports: [
     AppRoutingModule,
     BrowserModule,
