@@ -1,18 +1,18 @@
 {
   "configVersion": 1,
-  "index": "/index.html",
+  "index": "/material-design-app/dist/material-design-app/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/favicon.ico",
-        "/index.html",
-        "/main.8dc38ae7ea4500cc7881.js",
-        "/polyfills.d1c7bf4a2ae7c3435f95.js",
-        "/runtime.ec2944dd8b20ec099bf3.js",
-        "/styles.1e39ed49e131372a9b56.css"
+        "/material-design-app/dist/material-design-app/favicon.ico",
+        "/material-design-app/dist/material-design-app/index.html",
+        "/material-design-app/dist/material-design-app/main.8dc38ae7ea4500cc7881.js",
+        "/material-design-app/dist/material-design-app/polyfills.d1c7bf4a2ae7c3435f95.js",
+        "/material-design-app/dist/material-design-app/runtime.c015d9a19afe934f39e6.js",
+        "/material-design-app/dist/material-design-app/styles.1e39ed49e131372a9b56.css"
       ],
       "patterns": []
     },
@@ -21,40 +21,40 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "/assets/icons/favicon-16x16.png",
-        "/assets/icons/favicon.ico",
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-32x32.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "/material-design-app/dist/material-design-app/assets/icons/favicon-16x16.png",
+        "/material-design-app/dist/material-design-app/assets/icons/favicon.ico",
+        "/material-design-app/dist/material-design-app/assets/icons/icon-128x128.png",
+        "/material-design-app/dist/material-design-app/assets/icons/icon-144x144.png",
+        "/material-design-app/dist/material-design-app/assets/icons/icon-152x152.png",
+        "/material-design-app/dist/material-design-app/assets/icons/icon-192x192.png",
+        "/material-design-app/dist/material-design-app/assets/icons/icon-32x32.png",
+        "/material-design-app/dist/material-design-app/assets/icons/icon-384x384.png",
+        "/material-design-app/dist/material-design-app/assets/icons/icon-512x512.png",
+        "/material-design-app/dist/material-design-app/assets/icons/icon-72x72.png",
+        "/material-design-app/dist/material-design-app/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/icons/favicon-16x16.png": "ffd2803a4e7898764bcd1441067babc3c9639d99",
-    "/assets/icons/favicon.ico": "47fd40ab930864e87209fd9a03f0de107da1d317",
-    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/assets/icons/icon-144x144.png": "ae1725f954e2b43f19161d8eb669fba35a276372",
-    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/assets/icons/icon-192x192.png": "7953190c2bbbccd5c2740a122a0f887afc6f76ee",
-    "/assets/icons/icon-32x32.png": "1379f5bf7566651ca39a6671c3dac4ac0a412f50",
-    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/assets/icons/icon-72x72.png": "5713c89a9e094af0270d954f82a1fcb0bfd0f116",
-    "/assets/icons/icon-96x96.png": "7054dd5b7cbaa0107fd9f97e8d859c48825d4e2e",
-    "/favicon.ico": "47fd40ab930864e87209fd9a03f0de107da1d317",
-    "/index.html": "18d4383a306e453ad14ea575509046b1551e971e",
-    "/main.8dc38ae7ea4500cc7881.js": "4a5f997f37ce014825c4bb3a28c6705878349e07",
-    "/polyfills.d1c7bf4a2ae7c3435f95.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
-    "/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/styles.1e39ed49e131372a9b56.css": "94eec6acb858b8c572aedc7fbdeeb643ed9343f7"
+    "/material-design-app/dist/material-design-app/assets/icons/favicon-16x16.png": "ffd2803a4e7898764bcd1441067babc3c9639d99",
+    "/material-design-app/dist/material-design-app/assets/icons/favicon.ico": "47fd40ab930864e87209fd9a03f0de107da1d317",
+    "/material-design-app/dist/material-design-app/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/material-design-app/dist/material-design-app/assets/icons/icon-144x144.png": "ae1725f954e2b43f19161d8eb669fba35a276372",
+    "/material-design-app/dist/material-design-app/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/material-design-app/dist/material-design-app/assets/icons/icon-192x192.png": "7953190c2bbbccd5c2740a122a0f887afc6f76ee",
+    "/material-design-app/dist/material-design-app/assets/icons/icon-32x32.png": "1379f5bf7566651ca39a6671c3dac4ac0a412f50",
+    "/material-design-app/dist/material-design-app/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/material-design-app/dist/material-design-app/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/material-design-app/dist/material-design-app/assets/icons/icon-72x72.png": "5713c89a9e094af0270d954f82a1fcb0bfd0f116",
+    "/material-design-app/dist/material-design-app/assets/icons/icon-96x96.png": "7054dd5b7cbaa0107fd9f97e8d859c48825d4e2e",
+    "/material-design-app/dist/material-design-app/favicon.ico": "47fd40ab930864e87209fd9a03f0de107da1d317",
+    "/material-design-app/dist/material-design-app/index.html": "0eb074865027d383137d07302981069bb39c07f6",
+    "/material-design-app/dist/material-design-app/main.8dc38ae7ea4500cc7881.js": "4a5f997f37ce014825c4bb3a28c6705878349e07",
+    "/material-design-app/dist/material-design-app/polyfills.d1c7bf4a2ae7c3435f95.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
+    "/material-design-app/dist/material-design-app/runtime.c015d9a19afe934f39e6.js": "59bb7ada90691f0b62897cce555e499fa7304d88",
+    "/material-design-app/dist/material-design-app/styles.1e39ed49e131372a9b56.css": "94eec6acb858b8c572aedc7fbdeeb643ed9343f7"
   },
   "navigationUrls": [
     {
