@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Volvo Ocean Race</title>
@@ -12,8 +13,23 @@
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#1a1d20">
 </head>
+
 <body>
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
+
+  <script>
+    let deferredPrompt;
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      // Prevent Chrome 67 and earlier from automatically showing the prompt
+      e.preventDefault();
+      // Stash the event so it can be triggered later.
+      deferredPrompt = e;
+
+      alert('aa');
+    });
+  </script>
 </body>
+
 </html>

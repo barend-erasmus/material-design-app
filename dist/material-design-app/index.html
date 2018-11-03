@@ -16,4 +16,16 @@
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
 <script type="text/javascript" src="/material-design-app/dist/material-design-app/runtime.c015d9a19afe934f39e6.js"></script><script type="text/javascript" src="/material-design-app/dist/material-design-app/polyfills.d1c7bf4a2ae7c3435f95.js"></script><script type="text/javascript" src="/material-design-app/dist/material-design-app/main.8dc38ae7ea4500cc7881.js"></script></body>
+<script>
+    let deferredPrompt;
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      // Prevent Chrome 67 and earlier from automatically showing the prompt
+      e.preventDefault();
+      // Stash the event so it can be triggered later.
+      deferredPrompt = e;
+
+      alert('aa');
+    });
+  </script>
 </html>
