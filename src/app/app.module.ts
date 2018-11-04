@@ -4,7 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MatButtonModule, MatCardModule, MatMenuModule, MatToolbarModule, MatTableModule } from '@angular/material';
+import {
+  MatButtonModule,
+  MatCardModule,
+  MatMenuModule,
+  MatToolbarModule,
+  MatTableModule,
+  MatSnackBar,
+  MatSnackBarModule,
+} from '@angular/material';
 import { TeamsComponent } from './teams/teams.component';
 import { BoatComponent } from './boat/boat.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -23,9 +31,13 @@ import { SafeHTMLPipe } from './safe-html.pipe';
     MatButtonModule,
     MatCardModule,
     MatMenuModule,
+    MatSnackBarModule,
     MatTableModule,
     MatToolbarModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      scope: '/material-design-app/dist/material-design-app',
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent],

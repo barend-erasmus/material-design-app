@@ -9,7 +9,7 @@
       "urls": [
         "/material-design-app/dist/material-design-app/favicon.ico",
         "/material-design-app/dist/material-design-app/index.html",
-        "/material-design-app/dist/material-design-app/main.8dc38ae7ea4500cc7881.js",
+        "/material-design-app/dist/material-design-app/main.e9db8e49811faf06a48e.js",
         "/material-design-app/dist/material-design-app/polyfills.d1c7bf4a2ae7c3435f95.js",
         "/material-design-app/dist/material-design-app/runtime.c015d9a19afe934f39e6.js",
         "/material-design-app/dist/material-design-app/styles.1e39ed49e131372a9b56.css"
@@ -50,8 +50,8 @@
     "/material-design-app/dist/material-design-app/assets/icons/icon-72x72.png": "5713c89a9e094af0270d954f82a1fcb0bfd0f116",
     "/material-design-app/dist/material-design-app/assets/icons/icon-96x96.png": "7054dd5b7cbaa0107fd9f97e8d859c48825d4e2e",
     "/material-design-app/dist/material-design-app/favicon.ico": "47fd40ab930864e87209fd9a03f0de107da1d317",
-    "/material-design-app/dist/material-design-app/index.html": "0eb074865027d383137d07302981069bb39c07f6",
-    "/material-design-app/dist/material-design-app/main.8dc38ae7ea4500cc7881.js": "4a5f997f37ce014825c4bb3a28c6705878349e07",
+    "/material-design-app/dist/material-design-app/index.html": "70ce6663b2b089df29333d9610f03f659551f359",
+    "/material-design-app/dist/material-design-app/main.e9db8e49811faf06a48e.js": "3452e39bcf675686fdbfd7acbe0fd52da7af27be",
     "/material-design-app/dist/material-design-app/polyfills.d1c7bf4a2ae7c3435f95.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
     "/material-design-app/dist/material-design-app/runtime.c015d9a19afe934f39e6.js": "59bb7ada90691f0b62897cce555e499fa7304d88",
     "/material-design-app/dist/material-design-app/styles.1e39ed49e131372a9b56.css": "94eec6acb858b8c572aedc7fbdeeb643ed9343f7"

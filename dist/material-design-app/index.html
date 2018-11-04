@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Volvo Ocean Race</title>
@@ -12,20 +13,19 @@
   <link rel="manifest" href="/material-design-app/dist/material-design-app/manifest.json">
   <meta name="theme-color" content="#1a1d20">
 <link rel="stylesheet" href="/material-design-app/dist/material-design-app/styles.1e39ed49e131372a9b56.css"></head>
+
 <body>
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script type="text/javascript" src="/material-design-app/dist/material-design-app/runtime.c015d9a19afe934f39e6.js"></script><script type="text/javascript" src="/material-design-app/dist/material-design-app/polyfills.d1c7bf4a2ae7c3435f95.js"></script><script type="text/javascript" src="/material-design-app/dist/material-design-app/main.8dc38ae7ea4500cc7881.js"></script></body>
-<script>
-    let deferredPrompt;
 
+  <script>
     window.addEventListener('beforeinstallprompt', (e) => {
       // Prevent Chrome 67 and earlier from automatically showing the prompt
       e.preventDefault();
       // Stash the event so it can be triggered later.
-      deferredPrompt = e;
-
-      alert('aa');
+      window.beforeInstallPromptEvent = e;
     });
   </script>
+<script type="text/javascript" src="/material-design-app/dist/material-design-app/runtime.c015d9a19afe934f39e6.js"></script><script type="text/javascript" src="/material-design-app/dist/material-design-app/polyfills.d1c7bf4a2ae7c3435f95.js"></script><script type="text/javascript" src="/material-design-app/dist/material-design-app/main.e9db8e49811faf06a48e.js"></script></body>
+
 </html>

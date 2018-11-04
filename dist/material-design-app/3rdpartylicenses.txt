@@ -359,6 +359,8 @@ MIT
 
 @angular/material/table
 
+@angular/material/snack-bar
+
 @angular/material/menu
 
 @angular/material/toolbar
