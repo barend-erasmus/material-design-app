@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material';
 
 @Component({
@@ -6,10 +6,19 @@ import { MatSnackBar } from '@angular/material';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent {
-  constructor(public snackBar: MatSnackBar) {
-    snackBar.open('Volvo Ocean Ocean', 'Add to Home Screen').onAction().subscribe(() => {
-      (window as any).beforeInstallPromptEvent.prompt();
+export class AppComponent implements OnInit {
+  constructor(protected snackBar: MatSnackBar) {}
+
+  public ngOnInit(): void {
+    window.addEventListener('beforeinstallprompt', (event) => {
+      event.preventDefault();
+
+      this.snackBar
+        .open('Volvo Ocean Race', 'Add to Home Screen')
+        .onAction()
+        .subscribe(() => {
+          (event as any).prompt();
+        });
     });
   }
 }

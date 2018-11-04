@@ -2,7 +2,7 @@
   "name": "Volvo Ocean Race",
   "short_name": "Volvo Ocean Race",
   "theme_color": "#1a1d20",
-  "background_color": "#1a1d20",
+  "background_color": "#fff",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
