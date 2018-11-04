@@ -36,7 +36,6 @@ import { SafeHTMLPipe } from './safe-html.pipe';
     MatToolbarModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
-      scope: '/material-design-app/dist/material-design-app',
     }),
   ],
   providers: [],

@@ -7,8 +7,7 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "build-github": "ng b material-design-app --prod --deploy-url=/material-design-app/dist/material-design-app/ --base-href=/material-design-app/dist/material-design-app"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {

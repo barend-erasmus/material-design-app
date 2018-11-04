@@ -4,8 +4,8 @@
   "theme_color": "#1a1d20",
   "background_color": "#1a1d20",
   "display": "standalone",
-  "scope": "/material-design-app/dist/material-design-app",
-  "start_url": "/material-design-app/dist/material-design-app/index.html",
+  "scope": "/",
+  "start_url": "/",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
